@@ -40,7 +40,7 @@
 
 @layer base {
   * {
-    border-color: hsl(var(--border));
+    @apply border-border;
   }
   html { scroll-behavior: smooth; }
   body {
